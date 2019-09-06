@@ -1,0 +1,43 @@
+input{
+
+  display:block;
+  
+}
+
+input, textarea {
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 20px;
+  border: 1px solid;
+}
+
+
+input, textarea {
+  /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
+  font: 2em sans-serif;
+
+  /* Para dar o mesmo tamanho a todos os campo de texto */
+  width: 400px;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  /* Para harmonizar o look & feel das bordas nos campos de texto*/
+  border: 1px solid #999;
+}
+
+form {
+  /* Apenas para centralizar o form na página */
+  margin: 0 auto;
+  width: 500px;
+  /* Para ver as bordas do formulário */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+fieldset{
+  background: rgb(82, 82, 90);
+  color: white;
+  font-size: 18px;
+}
